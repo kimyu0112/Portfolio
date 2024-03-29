@@ -28,7 +28,6 @@
     padding-top: 9rem;
   }
 
-
   section {
     padding-top: 6rem;
     padding-right: max(15px, 3%);
@@ -42,7 +41,6 @@
 
   .contact {  
     padding-top: 2.5rem !important;
-    padding-bottom: 1rem;
   }
 
   p {
@@ -312,7 +310,7 @@
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   #contact-header {
