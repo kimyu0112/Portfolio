@@ -18,28 +18,7 @@
     --transition: 0.3s;
     --bottom-margin: 0.5rem;
 
-
-    /* --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
-    --bottom-margin: 0.5rem;
-    --bottom-margin-2: 1rem;
-    --line-height: 1.7rem;
-    --transition: 0.3s; */
-  
-    /* --h1-font: 2.2rem;
-    --h2-font: 1.1rem;
-    --p-font: 0.9rem;
-    --spacing: 1px; */
-
-    /* --m-1: 0.4rem;
-    --m-4: 2rem; */
   }
-
-  /* body {
-    margin-top: 8rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }  */
 
   main {
     justify-content: center;
@@ -133,7 +112,7 @@
     font-size: 1.4rem;
     font-weight: 600; */
     position: relative;
-    left: 2rem;
+    left: 2.5rem;
     font-size: 2rem;
     cursor: pointer;
     display: none;
