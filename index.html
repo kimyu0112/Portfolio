@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Yu | Web Developer</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awsome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Google Font: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#top" id="logo">KIM</a>
+        <div id="menu-icon" class="fas fa-bars"></div>
+        <ul class="navbar" id="navbar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="https://github.com/kimyu0112" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/kim-yu-40375a300/" target="_blank"> Linkedin</a></li>
+                <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Home -->
+  <main>
+    <section class="home" id="home">
+        <div class="home-container">
+            <h1 id="first-line">Hi, my name is <span id="name"></br>Kim Yu.</span></h1>
+            <h1>I'm an emerging Web Developer.</h1>
+            </br>
+            </br>
+            <p>Lorem ipsum dolor sit amet consectetur elit. And Dolorem natus repellat ipsum voluptatibus. Iusto, atque.</p>
+            </br>
+        </div>
+        <div class="btn-container">
+            <a href="#portfolio" class="btn">View Portfolio</a>
+            <a href="./assets/resume.pdf" class="btn" id="resume-btn">View Resume</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <a href="#about"><h1 class="header-text" id="about-header">About Me</h1></a>
+      <div class="about-container">
+        <img src="./Images/self.png"
+             alt="jane-doe"
+             id="self"/>
+    
+        <div>
+        <p>Hi! I'm Kim Yu, an aspiring web developer based in Melbourne. After working as an accounts/payroll for almost 7 years, I’ve decided to take the leap to pursue a career in IT by enrolling in an immersive software engineering program at Coder Academy.</p></br>
+        <p>..a break from work..&lt;br&gt</p>
+        </br>
+        <p>When I’m not at the computer, I’m usually reading, playing piano, or hanging out with my family and my cat Biscuits.
+        </p>
+      </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <a href="#skills"><h1 class="header-text" id="skills-header">Skills Overview</h1></a>
+        <div class="skills-container">
+          <div class="skills-subcontainer">
+            <img
+              title="HTML5"
+              src="./Images/icons/icons8-html-5.svg"
+              alt=""
+              class="icon icon-card" id="html5"
+            />
+            <img
+              title="CSS3"
+              src="./Images/icons/icons8-css3.svg"
+              alt=""
+              class="icon icon-card" id="css3"
+            />
+            <img
+              title="JAVASCRIPT"
+              src="./Images/icons/icons8-javascript.svg"
+              alt=""
+              class="icon icon-card" id="javascript"
+            />
+          </div>
+  
+          <div class="skills-subcontainer">
+            <img
+              title="BOOTSTRAP"
+              src="./Images/icons/icons8-bootstrap.svg"
+              alt=""
+              class="icon icon-card" id="boostrap"
+            />
+            <img
+              title="REACT"
+              src="./Images/icons/icons8-react-native.svg"
+              alt=""
+              class="icon icon-card"id="react"
+            />
+            <img
+              title="GIT"
+              src="./Images/icons/icons8-git.svg"
+              alt=""
+              class="icon icon-card" id="git"
+            />
+          </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+    <a href="#portfolio"><h1 class="header-text" id="portfolio-header">Portfolio</h1></a>
+      <div class="portfolio-container">
+          <div class="project-container project-card">
+            <img
+              src="./Images/project-photo.jpeg"
+              alt="proejct picture 1"
+              class="project-pic"
+            />
+            <h3 class="project-title">Project 1</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="./project1.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="./Images/project-photo.jpeg"
+              alt="proejct picture 2"
+              class="project-pic"
+            />
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="./project2.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="./Images/project-photo.jpeg"
+              alt="proejct picture 3"
+              class="project-pic"
+            />
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="./project3.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+
+          <div class="project-container project-card">
+            <img
+              src="./Images/project-photo.jpeg"
+              alt="proejct picture 4"
+              class="project-pic"
+            />
+            <h3 class="project-title">Project 4</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="./project4.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+
+          <div class="project-container project-card">
+            <img
+              src="./Images/project-photo.jpeg"
+              alt="proejct picture 5"
+              class="project-pic"
+            />
+            <h3 class="project-title">Project 5</h3>
+            <p class="project-details">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="./project5.html" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+    </section>
+    <!-- Contact Me-->
+    <section class="contact" id="contact">
+      <a href="#contact"></a><h1 class="header-text" id="contact-header">Contact Me</h1></a>
+      <div class="contact-container">
+          <div class="contact-info">
+              <div class="info-box">
+                  <i class="fas fa-phone-alt"></i>
+                  <p>+1 444 444 4444</p>
+              </div>
+              <div class="info-box">
+                  <i class="fas fa-envelope-open"></i>
+                  <p>example@email.com</p>
+              </div>
+              <div class="info-box">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>3000 Melbourne, Australia</p>
+              </div>
+              <div class="info-box social">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.threads.net/@kimyu0112" target="_blank"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/kimyu0112" target="_blank"><i class="fab fa-github"></i></a>
+                  
+              </div>
+          </div>
+          <!-- Contact Form -->
+          <div class="contact-form">
+              <form action="">
+                  <input type="text" placeholder="Your Name">
+                  <input type="email" placeholder="Enter Your Email">
+                  <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here..."></textarea>
+                  <input type="button" value="Send" class="contact-button">
+              </form>
+          </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="copyright">
+      <p>&#169; Kim Yu ♥ All Rights Reserved</p>
+    </div>
+  </footer>
+
+</body>
