@@ -1,1 +1,11 @@
-# portfolio
+# Site Map
+- Home
+- About Me
+- Skills
+- Portfolio
+  - project 1
+  - project 2
+  - project 3
+  - project 4
+  - project 5
+- Contact Me
