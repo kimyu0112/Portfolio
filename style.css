@@ -34,10 +34,18 @@
     margin-bottom: 12rem;
     padding-right: max(15px, 5%);
     padding-left: max(15px, 5%);
+    height: 100dvh;
+    width: 100dvw;
   }
 
-  .about, .skills, .contact {
-    padding-top: 10rem;
+  .about, .skills {
+    padding-top: 7rem;
+  }
+
+  .contact {
+    margin-top: 30rem !important;
+    padding-top: 5rem;
+    margin-bottom: 5rem !important;
   }
 
   .portfolio {
@@ -205,11 +213,6 @@
     padding: 32px 0;
   }
   
-  .project-pic {
-    width: 65%;
-    height: 60%;
-  }
-  
   .portfolio-container {
     margin-left: 1rem !important;
     margin-right: 1rem !important;
@@ -222,7 +225,7 @@
     margin-top: 1.5rem;
   }
   
-  .projects-title {
+  .project-title {
     text-align: center;
     margin-bottom: 1rem;
     margin-bottom: var(--bottom-margin);
@@ -267,6 +270,8 @@
   }
 
   .project-pic {
+    width: 80%;
+    height: 70%;
     border-radius: 1.5%;
 	  border: 2px solid var(--primary);
     transition-duration: 200ms;
@@ -311,10 +316,10 @@
   /* --Contact-- */
 
   .contact {
-    padding-top: 4rem;
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
+    margin-bottom: 3rem;
   }
 
   #contact-header {
@@ -419,7 +424,7 @@
 
   .projectPreview {
     display: grid;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     margin-left: 4rem;
@@ -455,7 +460,11 @@
       justify-content: center;
   }
 
-  .detailed-project-pictures {
+  .detailed-project-pictures-1 {
+    border-radius: 1%;
+  }
+
+  .detailed-project-pictures-2 {
       border-radius: 1%;
   }
   
