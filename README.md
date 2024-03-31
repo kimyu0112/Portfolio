@@ -46,12 +46,7 @@ Design:
 - The use of combination of pictures and text interspersed throughout the content adds visual interest and helps to break up the text, making it more engaging and less monotonous to read.
 
 Tech Stack:
--html
--css 
-  -Flex
-  -Grid
-  -media breakpoints
--deployment
+I have utilized HTML to define the structure and content of my portfolio. CSS has been employed to add styling and interactivity to enhance the user experience. Specifically, I have used Flexbox and Grid for creating responsive layouts, and I have incorporated media breakpoints extensively to ensure that my portfolio is visually appealing on various devices, including large monitors and small phone screens. Furthermore, I have deployed my website using Netlify, which allows me to easily publish updates directly from my Github repository.
 
 - Tesktop View:
   ![Desktop View of My Porfolio](Laptop%20View-Main%20Page.png)
