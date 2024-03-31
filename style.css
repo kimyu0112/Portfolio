@@ -417,7 +417,7 @@
     display: grid;
     /* justify-content: space-between; */
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 2em;
     margin-left: 4rem;
     margin-right: 4rem;
     padding-right: 7rem;
@@ -612,8 +612,8 @@
     font-size: 1rem;
    }
 
-   .projectPreview .brief-introduction {
-    font-size: 1.2rem;
+   .projectPreview div .brief-introduction {
+    font-size: 1.3rem;
    }
 
 }
