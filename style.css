@@ -408,9 +408,13 @@
   }
 
   .projectPreview .brief-introduction {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     position: relative;
-    margin-top: 4rem;
+    margin-top: 5rem;
+  }
+
+  .projectPreview .detailed-introduction {
+    font-size: 1.2rem;
   }
 
   .projectPreview {
