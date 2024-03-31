@@ -64,3 +64,4 @@ I have utilized HTML to define the structure and content of my portfolio. CSS ha
   
 - link to Github repo: https://github.com/kimyu0112/portfolio
 - link to Personal Portfolio: https://kimyu0112.netlify.app/
+- link to my presentation: https://vimeo.com/929241235/081bd875b1
